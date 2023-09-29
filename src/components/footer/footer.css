@@ -1,0 +1,28 @@
+/* Import the Poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Apply the font to all elements */
+* {
+    margin: 0;
+    /* Change from 2px to 0 to remove extra spacing */
+    padding: 0;
+    /* Change from 2px to 0 to remove extra spacing */
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Footer styles */
+.main-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3bb19b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
